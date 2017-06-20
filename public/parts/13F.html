@@ -1,5 +1,50 @@
-<div>
-	<h1>13Floor</h1>
-	
-	<p>{{ msg }}</p>
-</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko"  xml:lang="ko">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>toilet_male</title>
+    <meta http-equiv="Content-Type" Content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="angular.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/3.7.8/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.8/firebase-database.js"></script>
+    <script language="javascript" type="text/javascript" src="/javascript/doorcheck.js"></script><!--문 상태 화면 확인하는 JS파일-->
+  </head>
+  
+  <body>
+    <div id="toilet_gender" value="m"></div><!--남자화장실 페이지 상태임을 알기 위래 value="m" 전달-->
+    <table class="table_male">
+      <tbody>
+        <tr>
+          <td id="m_room1"><br><img src="img/변기.jpg"><br><br></td><!--색 표시를 위해 각 칸마다 m_room#로 id 설정-->
+          <td id="m_room2"><br>2번<br><br></td>
+          <td id="m_room3"><br>3번<br><br></td>
+          <td id="m_room4"><br>4번<br><br></td>
+          <th rowspan="3" valign="bottom">출입문</th>
+        </tr>
+        
+        <tr>
+          <th colspan="4">복도</th>
+        </tr>
+        
+        <tr>
+          <td id="m_room5"><br>5번<br><br></td>
+          <td id="m_room6"><br>6번<br><br></td>
+          <td id="m_room7"><br>7번<br><br></td>
+          <td id="m_room8"><br>8번<br><br></td>
+        </tr>
+      </tbody>
+    </table>
+
+    </br>
+    </br>
+    </br>
+    <h2>13F 남자화장실</h2>
+
+    <p>{{ msg }}</p>
+ 
+  </body>
+</html>
