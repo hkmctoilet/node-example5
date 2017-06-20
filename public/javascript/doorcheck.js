@@ -53,8 +53,6 @@ function gotData(data) {
 
 //추가한 부분 
   }
-  document.write(sum);
-  alert("지금 빈 자리는"+ sum + "자리입니다.")
 }
 
 function errData(err) {
