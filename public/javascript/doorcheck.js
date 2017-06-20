@@ -1,3 +1,5 @@
+var myApp = angular.module('myApp', []);    //AngularJS App ¼±¾ð
+
 function doorcheck(){
 
   var config = {
