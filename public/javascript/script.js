@@ -1,11 +1,11 @@
 	var myApp = angular.module("myApp",["ngRoute"]);
 	myApp.config(function($routeProvider){
 		$routeProvider
-		.when("../public/13F", {
+		.when("/parts/13F", {
 			templateUrl : "13F.html",
 			controller : "13Fctrl"
 		})
-		.when("../14F", {
+		.when("/13F", {
 			templateUrl : "14F.html",
 			controller : "14Fctrl"
 		})
