@@ -6,11 +6,11 @@
 			controller : "13Fctrl"
 		})
 		.when("/13F", {
-			templateUrl : "14F.html",
+			templateUrl : "13F.html",
 			controller : "14Fctrl"
 		})
-		.when("../15F", {
-			templateUrl : "15F.html",
+		.when("/13F", {
+			templateUrl : "13F.html",
 			controller : "15Fctrl"
 		});
 	});
