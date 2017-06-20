@@ -7,7 +7,7 @@ firebase.initializeApp({
     projectId: "htoilet-1c9d9",
     storageBucket: "htoilet-1c9d9.appspot.com",
     messagingSenderId: "190112489710"
-  };
+  });
 
 var app = express();
 
