@@ -42,9 +42,6 @@ function gotData(data) {
         document.getElementById(room_number).style.background = "red";
         else document.getElementById(room_number).style.background = "green";
 
-     if(value == "open"){
-        sum++;
-     }
        //추가한 부분
        
        //추가한 부분
