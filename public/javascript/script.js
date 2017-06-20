@@ -2,15 +2,15 @@
 	myApp.config(function($routeProvider){
 		$routeProvider
 		.when("/parts/13F", {
-			templateUrl : "13F.html",
+			templateUrl : "parts/13F.html",
 			controller : "13Fctrl"
 		})
 		.when("/13F", {
-			templateUrl : "13F.html",
+			templateUrl : "parts/13F.html",
 			controller : "14Fctrl"
 		})
 		.when("/13F", {
-			templateUrl : "13F.html",
+			templateUrl : "parts/13F.html",
 			controller : "15Fctrl"
 		});
 	});
