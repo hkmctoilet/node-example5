@@ -1,9 +1,13 @@
 var express = require('express');
 var firebase = require('firebase');
 firebase.initializeApp({
-	serviceAccount: "/json/htoilet-1c9d9-export.json",
+	apiKey: "AIzaSyCAkId4s73nurOckfiANF0jpsCyfAwNH7U",
+    authDomain: "htoilet-1c9d9.firebaseapp.com",
     databaseURL: "https://htoilet-1c9d9.firebaseio.com",
-});
+    projectId: "htoilet-1c9d9",
+    storageBucket: "htoilet-1c9d9.appspot.com",
+    messagingSenderId: "190112489710"
+  };
 
 var app = express();
 
