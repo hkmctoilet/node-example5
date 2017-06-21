@@ -1,13 +1,10 @@
 var express = require('express');
+var firebase = require('firebase');
 
-var admin = require("firebase-admin");
-
-var serviceAccount = require("path/to/serviceAccountKey.json");
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://htoilet-1c9d9.firebaseio.com"
-});
+firebase.initializeApp({
+	serviceAccount : "htoilet-1c9d9-firebase-adminsdk-ksjet-9e1848aa67.json",
+    databaseURL: "https://htoilet-1c9d9.firebaseio.com"
+    });
 
 
 var app = express();
